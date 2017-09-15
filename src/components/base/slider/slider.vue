@@ -56,6 +56,7 @@
       _setSliderWideth (isResize) {
         this.children = this.$refs.sliderGroup.children
         let width = 0
+        // 默认为显示器宽度
         let sliderWidth = this.$refs.slider.clientWidth
         for (let i = 0; i < this.children.length; i++) {
           let child = this.children[i]
